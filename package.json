@@ -1,0 +1,28 @@
+{
+  "name": "tareas_backend",
+  "version": "1.0.0",
+  "description": "app de tareas backend(api rest)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GerardoRosas-27/Tareas-react"
+  },
+  "author": "Gerardo Rosas Rodríguez",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.8.2",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
